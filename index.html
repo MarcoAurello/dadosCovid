@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dados COVID-19</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Dados por País e Período</h1>
+    
+    <!-- Primeiro país -->
+    <label for="country1">Selecione o primeiro país:</label>
+    <select id="country1"></select>
+    
+    <!-- Segundo país -->
+    <label for="country2">Selecione o segundo país:</label>
+    <select id="country2"></select>
+    <center>
+      <label for="startDate1">Data:</label>
+    <input type="date" id="startDate1">
+    
+
+    </center>
+    
+    <button id="getDataBtn">Obter Dados</button><br>
+    
+    <!-- Gráfico -->
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
