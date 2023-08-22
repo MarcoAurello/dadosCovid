@@ -68,6 +68,8 @@ body, h1, h2, p, label, select, input, button, date {
 
   #myChart {
     background-color: #f4f4f4;
+    width: 700px;
+    height: 300px;
   }
   
   /* Alterar a cor das barras do gráfico */

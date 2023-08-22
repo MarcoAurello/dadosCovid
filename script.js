@@ -91,6 +91,10 @@ function getAndPlotData(countryCode1, countryCode2, startDate) {
               },
             },
           });
+
+
+
+          
         })
         .catch(error => {
           console.error('Erro ao obter dados do segundo país:', error);
